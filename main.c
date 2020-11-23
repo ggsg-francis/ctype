@@ -5,7 +5,7 @@
 
 //#include <SDL.h>
 
-#include "isdl\SDL.h"
+#include "isdl/SDL.h"
 
 #define ARCHIVER_WINDOW_W 800
 #define ARCHIVER_WINDOW_H 600
