@@ -1,3 +1,4 @@
+cd "${0%/*}"
 mkdir BUILDMAC
 gcc -c empty.c
 gcc -c main.c
