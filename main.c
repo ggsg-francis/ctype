@@ -1,5 +1,9 @@
 #define SOKOL_IMPL
+#ifdef _WIN32
 #define SOKOL_GLCORE33
+#else
+#define SOKOL_METAL
+#endif
 #include "sokol_app.h"
 #include "sokol_gfx.h"
 #include "sokol_glue.h"
